@@ -30,3 +30,4 @@ def process_data(data, look_back):
         X.append(data[i:(i+look_back), 0])
         Y.append(data[(i+look_back), 0])
     return np.array(X), np.array(Y)
+
