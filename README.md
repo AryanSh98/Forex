@@ -1,3 +1,3 @@
 # Forex
 
-Forex rates prediction
+Forex movements prediction.
