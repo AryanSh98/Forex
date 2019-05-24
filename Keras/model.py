@@ -7,3 +7,4 @@ def build_model():
     model.add(Dense(1))
     model.compile(optimizer='adam',loss='mse')
     return model
+
