@@ -1,5 +1,7 @@
+# pylint: disable=import-error
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import LSTM, Dense
+# pylint: enable=import-error
 
 def build_model():
     model = Sequential()
