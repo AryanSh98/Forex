@@ -8,4 +8,3 @@ def build_keras_model():
     model.add(LSTM(256,input_shape=(20,1)))
     model.add(Dense(1))
     return model
-
