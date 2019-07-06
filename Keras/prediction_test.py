@@ -8,3 +8,5 @@ plt.figure()
 plt.plot(pred['prediction'])
 plt.plot(pred['Ground_truth'])
 plt.show()
+
+
